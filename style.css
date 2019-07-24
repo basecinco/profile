@@ -1,0 +1,100 @@
+body {
+  background-color: #f4f6f6;
+}
+
+h1 {
+  color: #1c2938;
+  font-family: frank-new;
+  font-size: 33px;
+  line-height: 21px;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  color: #cd3f3e;
+  font-family: frank-new;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 5px;
+}
+
+
+p {
+  color: #1c2938;
+  font-family: frank-new;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+a {
+  color: #1c2938;
+  font-family: frank-new;
+  font-weight: 500
+  font-size: 33px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(100, 100, 100);
+}
+
+.button {
+  background-color: #cd3f3e;
+  padding: 13px 33px;
+  border-radius: 3px;
+  color: white;
+  font-weight: 500;
+}
+
+.button:hover {
+  color: white;
+  background-color: #1c2938;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  padding: 35px 75px 50px 75px;
+  border-radius: 5px;
+  width: 350px;
+  margin: 75px auto;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0, 0.05);
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 210px;
+    padding: 25px 25px 50px 25px;
+  }
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  font-size: 33px;
+  display: inline-block;
+  list-style: none;
+  padding: 0px 5px;
+}
+
+img {
+  width: 110px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.footer {
+  text-align: center;
+}
+
