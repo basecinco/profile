@@ -43,12 +43,11 @@ a:hover {
   background-color: #cd3f3e;
   padding: 13px 33px;
   border-radius: 3px;
-  color: white;
+  color: #f4f6f6;
   font-weight: 500;
 }
 
 .button:hover {
-  color: white;
   background-color: #1c2938;
 }
 
